@@ -1,0 +1,6 @@
+num = input("Please Enter Some Num: ")
+numbers = num.split("+")
+numList = list(map(int,numbers))
+numList.sort()
+result = numList.export()
+print(result)
